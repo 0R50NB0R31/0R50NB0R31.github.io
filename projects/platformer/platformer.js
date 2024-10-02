@@ -28,7 +28,7 @@ $(function () {
      * Comment the function call out to remove the grid
      */
 
-    // drawGrid();
+    drawGrid();
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -37,38 +37,31 @@ $(function () {
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
-    // example usage: createPlatform(x,y,width,height)
+    // example usage: createPlatform(x, y, width, height);
 
-   createPlatform(300,600,200,30)
-   createPlatform(500,5000,200,30)
-   createPlatform(400,600,200,30)
-   createPlatform(300,700,200,30)
-   createPlatform(200,400,200,30)
-   createPlatform(0,700,200,30)
-   createPlatform(100,1000,200,30)
-   createPlatform(400,1000,50,200)
-   createPlatform(300,1200,200,30)
-   
+    createPlatform(200, 675, 75, 30);
+    createPlatform(300, 600, 200, 30);
+    createPlatform(600, 500, 200, 30);
+    createPlatform(800, 400, 200, 30);
+    createPlatform(550, 675, 75, 30);
+    createPlatform(500, 300, 200, 30);
 
-   
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
-    // example usage: createCollectable(type, x, y, gravity, bounce)
+    // example usage: createCollectable(type, x, y, gravity, bounce);
 
+    // createCollectable("diamond", 600, 200, 0.5, any);
+    // createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    // createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
 
-
-    
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
-    // example usage: createCannon(side, position, delay, width, height)
+    // example usage: createCannon(side, position, delay, width, height);
 
-
-
-    
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
