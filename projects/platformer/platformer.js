@@ -48,10 +48,9 @@ $(function () {
     createPlatform(900, 150, 200, 30); // g
     createPlatform(950, 400, 50, 200); // h
     createPlatform(1100, 400, 300, 30); // i
-    createPlatform(1150,250,105,20); // j
-    createPlatform(1350,340,50,20); // k  
-    createPlatform(300,200,30,30) // L
-  
+    createPlatform(1150, 250, 105, 20); // j
+    createPlatform(1350, 340, 50, 20); // k
+    createPlatform(300, 200, 30, 30); // L
 
     // TODO 2
     // Create collectables
