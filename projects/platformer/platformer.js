@@ -51,7 +51,7 @@ $(function () {
     createPlatform(1150, 250, 105, 20); // j
     createPlatform(1350, 340, 50, 20); // k
     createPlatform(300, 200, 30, 30); // L
-
+    // HELLO ORSOOOOOOOON IT"S ME  A GHOST o codemas past. to save press !! Ctrl + s  !!  scaaaaarey stuff  oooooo~~~~
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
